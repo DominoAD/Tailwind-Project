@@ -1,8 +1,9 @@
 # Tailwind-Project
----
 
+---
 https://tailwindcss.com/
 ---
+
 # Action Outline:
 
 ## Have Intro
@@ -30,7 +31,7 @@ Open Visual Studio Code or your preferred code editor.
 
 Show the installation process, including Node.js if necessary, as Tailwind requires Node.js to compile its CSS.
 
-### Project Setup:
+### Activity 1: Project Setup
 
 Begin by creating a new project directory and navigate into it.
 
@@ -40,39 +41,29 @@ Install Tailwind CSS via npm: `npm install -D tailwindcss postcss autoprefixer`
 
 Create your `tailwind.config.js` and `postcss.config.js` files by running `npx tailwindcss init -p`
 
-### Folder Structure Setup:
+Inside the `tailwind.config.js` add paths to all of your template files `["./src/**/*.{html,js}]"`
 
-	Document structure:
+**The file should look like this:**
+
+	/** @type {import('tailwindcss').Config} */
+	module.exports = {
+	  content: ["./src/**/*.{html,js}"],
+	  theme: {
+    extend: {},
+	  },
+	  plugins: [],
+	}
+
+### Folder Structure:
+
+You should then create the `src` file at the root of your project.
+Within `src` create the `index.html` and `input.css` files.
+
+* Then run `npx tailwindcss -i ./src/input.css -o ./src/output.css --watch`
+
+### At this point, your file structure should be:
+	node_modules	package-lock.json	package.json	postcss.config.js	tailwind.config.js
 	
-	project-root/
-	│
-	├── public/                     
-	│   └── index.html              
-	│
-	├── src/                        
-	│   ├── assets/                 
-	│   │
-	│   ├── components/             
-	│   │   ├── Button.vue          
-	│   │   ├── Card.js             
-	│   │   └── ...
-	│   │
-	│   ├── styles/                 
-	│   │   ├── tailwind.css        
-	│   │   └── custom.css          
-	│   │
-	│   ├── utilities/              
-	│   │   └── ...
-	│   │
-	│   ├── App.vue                 
-	│   ├── App.js                  
-	│   └── index.js                
-	│
-	├── tailwind.config.js          
-	├── postcss.config.js           
-	└── package.json
-
-Guide viewers in setting up the described folder structure within the project directory.
 
 Focus on creating the public, src, and within src, the assets, components, styles, and utilities directories.
 
@@ -88,7 +79,8 @@ Create a basic HTML file in the public directory and link the compiled CSS file.
 Start with a simple example, like adding a button or a card component, to demonstrate the utility classes in action.
 
 ### Running Tailwind:
-Explain how to compile the CSS using Tailwind CLI or through a build tool like Webpack, depending on your setup.
+
+Depending on your setup, explain how to compile the CSS using Tailwind CLI or a build tool like Webpack.
 
 Show the command to watch for changes in your project and automatically rebuild your CSS file.
 	
@@ -99,5 +91,3 @@ Show the command to watch for changes in your project and automatically rebuild 
 **Clarifications:** Periodically pause to explain why certain steps are taken and how Tailwind's utility classes work. This helps in understanding rather than just copying commands.
 
 **Encourage Experimentation:** Towards the end, encourage viewers to experiment with Tailwind's classes in their components, suggesting they try to create a layout or component on their own.             
-
-	
