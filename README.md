@@ -19,7 +19,8 @@ https://tailwindcss.com/
 
 ## Start Demo
 	Open Visual Studio Code
-	Guide through installation and setup
+	Guide them through installation and setup
+	
 	Document structure:
 	
 	project-root/
@@ -48,6 +49,7 @@ https://tailwindcss.com/
 	│
 	├── tailwind.config.js          
 	├── postcss.config.js           
-	└── package.json                
+	└── package.json
+## Slow Down so People Can Keep up                
 
 	
