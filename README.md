@@ -35,10 +35,10 @@ Show the installation process, including Node.js if necessary, as Tailwind requi
 Begin by creating a new project directory and navigate into it.
 
 Initialize a new npm project with 
-	`npm init -y.`
+	npm init -y
 
 Install Tailwind CSS via npm: 
-	`npm install -D tailwindcss postcss autoprefixer`
+	npm install -D tailwindcss postcss autoprefixer
 
 Create your `tailwind.config.js` and `postcss.config.js` files by running:
 	`npx tailwindcss init -p`
