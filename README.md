@@ -19,4 +19,35 @@ https://tailwindcss.com/
 
 ## Start Demo
 	Open Visual Studio Code
-	Guide through install and setup
+	Guide through installation and setup
+	Document structure:
+	
+	project-root/
+	│
+	├── public/                     
+	│   └── index.html              
+	│
+	├── src/                        
+	│   ├── assets/                 
+	│   │
+	│   ├── components/             
+	│   │   ├── Button.vue          
+	│   │   ├── Card.js             
+	│   │   └── ...
+	│   │
+	│   ├── styles/                 
+	│   │   ├── tailwind.css        
+	│   │   └── custom.css          
+	│   │
+	│   ├── utilities/              
+	│   │   └── ...
+	│   │
+	│   ├── App.vue                 
+	│   ├── App.js                  
+	│   └── index.js                
+	│
+	├── tailwind.config.js          
+	├── postcss.config.js           
+	└── package.json                
+
+	
