@@ -132,11 +132,5 @@ Compile Tailwind CSS: Make sure your Tailwind CSS is compiled. If you haven't al
 `npx tailwindcss -i ./src/input.css -o ./src/output.css --watch`
 
 This command will generate your output.css file, which includes all of Tailwind's utility classes applied to your HTML elements.
-	
-## Slow Down so People Can Keep up
 
-**Pacing:** Make sure to pace the tutorial so that viewers have enough time to follow along. Avoid rushing through commands and explanations.
-
-**Clarifications:** Periodically pause to explain why certain steps are taken and how Tailwind's utility classes work. This helps in understanding rather than just copying commands.
-
-**Encourage Experimentation:** Towards the end, encourage viewers to experiment with Tailwind's classes in their components, suggesting they try to create a layout or component on their own.             
+## Just need to flush this out some more
