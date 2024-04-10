@@ -86,9 +86,7 @@ Show how to set up the `postcss.config.js` to process the Tailwind file.
 
 ### Creating a Simple Page:
 
-Create a basic HTML file in the public directory and link the compiled CSS file.
-
-Start with a simple example, like adding a button or a card component, to demonstrate the utility classes in action.
+Inside the index.html file, use the following emmet abbreviation: `html:5>(header>h1{Welcome to My Page}+nav>ul>li*3>a)+main>section*3>article*2>h2+p+footer>p{Copyright © 2024}`
 
 ### Running Tailwind:
 
