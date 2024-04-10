@@ -29,7 +29,7 @@ https://tailwindcss.com/
 
 Open Visual Studio Code or your preferred code editor.
 
-Show the installation process, including Node.js, Tailwind requires Node.js to compile its CSS.
+Show the installation process, including Node.js; Tailwind requires Node.js to compile its CSS.
 
 ### Activity 1: Project Setup
 
