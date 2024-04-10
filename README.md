@@ -111,7 +111,7 @@ boilerplate code:
 	    <link href="./output.css" rel="stylesheet">
 	</head>
 	<body>
-	    <!-- Content goes here -->
+	    <!-- Div will go here -->
 	</body>
 	</html>
 	
