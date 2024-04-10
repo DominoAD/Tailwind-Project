@@ -8,7 +8,7 @@ https://tailwindcss.com/
 
 ## Have Intro
 
-* Opening Shot: Start with an eye-catching video intro featuring the Tailwind CSS logo and snapshots of popular websites that utilize Tailwind CSS for their design. Use dynamic transitions and make it engaging.
+* Opening: Show the Tailwind CSS website and their snapshots of popular websites that utilize Tailwind CSS for their design. Use dynamic transitions and make it engaging.
 
 * Introduce Tailwind CSS: Briefly explain what Tailwind CSS is, touching on its utility-first approach to styling. Highlight its rapid adoption in the web development community.
 
@@ -62,7 +62,19 @@ Within `src` create the `index.html` and `input.css` files.
 * Then run `npx tailwindcss -i ./src/input.css -o ./src/output.css --watch`
 
 ### At this point, your file structure should be:
-	node_modules	package-lock.json	package.json	postcss.config.js	tailwind.config.js
+
+	TailwindCss/
+	|
+	├── node_modules/ 
+	├── src/
+	│   ├── index.html
+	│   ├── input.css 
+	│   └── output.css 
+	├── package-lock.json 
+	├── package.json 
+	├── postcss.config.js
+	└── tailwind.config.js
+	
 	
 
 Focus on creating the public, src, and within src, the assets, components, styles, and utilities directories.
