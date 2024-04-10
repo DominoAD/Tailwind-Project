@@ -41,7 +41,7 @@ Install Tailwind CSS via npm: `npm install -D tailwindcss postcss autoprefixer`
 
 Create your `tailwind.config.js` and `postcss.config.js` files by running `npx tailwindcss init -p`
 
-Inside the `tailwind.config.js` add paths to all of your template files `["./src/**/*.{html,js}]"`
+Inside the `tailwind.config.js` add paths to all of your template files `["./src/**/*.{html,js}"]`
 
 **The file should look like this:**
 
