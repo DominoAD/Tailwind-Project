@@ -72,7 +72,7 @@ Once this is done, run this in the terminal: `npx tailwindcss -i ./src/input.css
 ## Activity 2: Creating a Simple Webpage with Tailwind CSS
 ### Setup HTML Document:
 
-Open your index.html file located in the src directory. 
+Open your `index.html` file located in the src directory. 
 This file will be the canvas for your Tailwind project. Start by adding the basic HTML5 
 
 	
