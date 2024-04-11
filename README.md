@@ -57,7 +57,7 @@ Within `src` create the `index.html` and `input.css` files.
 
 Inside the index.html file, use the following emmet abbreviation: `html:5>(div>h1{My Tailwind Page}+p+button)footer>p{Tailwind© 2024}`
 
-The input.css file should have these directives at the top of the document:
+The `input.css` file should have these directives at the top of the document:
 
 	@tailwind base;
 	@tailwind components;
@@ -114,5 +114,30 @@ Compile Tailwind CSS: Make sure your Tailwind CSS is compiled. If you haven't al
 `npx tailwindcss -i ./src/input.css -o ./src/output.css --watch`
 
 This command will generate your output.css file, which includes all of Tailwind's utility classes applied to your HTML elements.
+
+# DOC
+
+	<!doctype html>
+	<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>My Tailwind Page</title>
+	    <link href="output.css" rel="stylesheet">
+	</head>
+	<body class="bg-gray-50 flex items-center justify-center min-h-screen">
+	    <div class="w-full max-w-md mx-auto bg-white rounded-lg shadow-md p-8">
+	        <h1 class="text-center text-4xl font-bold text-gray-800">Hello, world!</h1>
+	        <p class="mt-5 text-lg text-gray-700 w-full p-4 bg-gray-100 border border-gray-200 rounded">
+	            Welcome to your first Tailwind CSS page!
+	        </p>
+	        <button class="mt-5 w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition ease-in-out duration-150">
+	            Click Me
+	        </button>
+	    </div>
+	</body>
+	</html>
+
+
 
 
